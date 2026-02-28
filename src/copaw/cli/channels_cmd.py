@@ -490,7 +490,7 @@ def configure_voice(
     # — Advanced settings —
 
     configure_advanced = prompt_confirm(
-        "Configure advanced settings? (concurrent calls, port)",
+        "Configure advanced settings? (concurrent calls)",
         default=False,
     )
 
