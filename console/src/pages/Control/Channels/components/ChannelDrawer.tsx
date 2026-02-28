@@ -155,7 +155,7 @@ export function ChannelDrawer({
             <Form.Item
               name="phone_number_sid"
               label={t("channels.phoneNumberSid")}
-              tooltip="Found under Phone Numbers → Active Numbers in Twilio"
+              tooltip={t("channels.phoneNumberSidHelp")}
             >
               <Input placeholder="PNxxxxxxxx" />
             </Form.Item>
